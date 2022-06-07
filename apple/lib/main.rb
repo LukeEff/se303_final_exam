@@ -14,6 +14,10 @@ def middle
   middle << "\n"
 end
 
+def conclusion
+
+end
+
 def story
   conclusion = "And that was it."
   first + middle + conclusion
