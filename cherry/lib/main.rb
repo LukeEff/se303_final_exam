@@ -34,10 +34,5 @@ end
 
 def repeat
   data = ["This", "is", "the", "data", "to", "use"]
-  result = ""
-  (0..5).each do |i|
-    result += data[i]
-  end
-  result
   repeat_with_pipeline(data)
 end
