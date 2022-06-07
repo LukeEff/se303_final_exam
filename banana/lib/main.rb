@@ -12,6 +12,10 @@ class Phrase
     @ending = ending
   end
 
+  def word_count
+    @beginning.split.size + @middle.split.size + @ending.split.size
+  end
+
 end
 
 def word_count(beginning, middle, conclusion)
