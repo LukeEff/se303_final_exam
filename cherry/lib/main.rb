@@ -3,7 +3,11 @@
 # Apply the "split loop" refactoring.
 
 def total(data) 
-  
+  total = 0
+  data.each do |d|
+    total += d
+  end
+  total 
 end
 
 def total_and_smallest
