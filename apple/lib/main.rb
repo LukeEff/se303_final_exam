@@ -15,7 +15,7 @@ def middle
 end
 
 def conclusion
-
+  "And that was it."
 end
 
 def story
