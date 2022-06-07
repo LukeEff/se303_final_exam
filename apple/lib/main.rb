@@ -2,7 +2,7 @@
 # To cure it, apply "extract function".
 
 def first
-
+  "Mr. Dursley was the director of a firm called Grunnings, which made drills."
 end
 
 def story
