@@ -2,6 +2,17 @@
 # Cure the smell, and keep the test green and unchanged.
 # Hint: Let the existing functions use the new code that you
 #       write.
+class Phrase
+
+  attr_reader :beginning, :middle, :conclusion
+
+  def initialize(beginning, middle, ending)
+    @beginning = beginning
+    @middle = middle
+    @ending = ending
+  end
+
+end
 
 def word_count(beginning, middle, conclusion)
   beginning.split.size +
