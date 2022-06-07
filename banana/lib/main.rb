@@ -4,7 +4,7 @@
 #       write.
 class Phrase
 
-  attr_reader :beginning, :middle, :conclusion
+  attr_reader :beginning, :middle, :ending
 
   def initialize(beginning, middle, ending)
     @beginning = beginning
