@@ -31,12 +31,6 @@ class Farm
     plots.reduce(0) { |total, plot| total += (plot.size - 1) }
   end
 
-  def remove_plot_names
-    plot.drop(1).each do |plant|
-        total += plant[1]
-    end
-  end
-
   def total_plant_heights
     total = 0
     plots.each do |plot|
