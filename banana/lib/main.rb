@@ -20,6 +20,12 @@ class Phrase
     @beginning.size + @middle.size + @ending.size
   end
 
+  def period_count
+    @beginning.scan(/\./).size + 
+    @middle.scan(/\./).size + 
+    @ending.scan(/\./).size
+  end
+
 end
 
 def word_count(beginning, middle, conclusion)
