@@ -20,7 +20,7 @@ def total_and_smallest
       smallest = d
     end
   end
-  [total, smallest]
+  [total(data), smallest]
 end
 
 
