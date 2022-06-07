@@ -15,12 +15,6 @@ def middle
 end
 
 def story
-  middle = ""
-  middle << "\n"
-  middle << "\n"
-  middle << "\n"
-  middle << "\n"
-  middle << "\n"
   conclusion = "And that was it."
   first + middle + conclusion
 end
