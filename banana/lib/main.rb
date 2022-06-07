@@ -19,9 +19,7 @@ class Phrase
 end
 
 def word_count(beginning, middle, conclusion)
-  beginning.split.size +
-  middle.split.size +
-  conclusion.split.size
+  Phrase.new(beginning, middle, conclusion).word_count
 end
 
 def letter_count(beginning, middle, conclusion)
