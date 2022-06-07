@@ -11,7 +11,13 @@ def total(data)
 end
 
 def smallest(data)
-
+  smallest = data.first
+  data.each do |d|
+    if d < smallest
+      smallest = d
+    end
+  end
+  smallest
 end
 
 def total_and_smallest
