@@ -16,6 +16,10 @@ class Phrase
     @beginning.split.size + @middle.split.size + @ending.split.size
   end
 
+  def letter_count
+    @beginning.size + @middle.size + @ending.size
+  end
+
 end
 
 def word_count(beginning, middle, conclusion)
