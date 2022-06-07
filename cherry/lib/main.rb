@@ -22,12 +22,6 @@ end
 
 def total_and_smallest
   data = [23, 15, 8, 16, 4, 42]
-  smallest = data.first
-  data.each do |d|
-    if d < smallest
-      smallest = d
-    end
-  end
   [total(data), smallest(data)]
 end
 
