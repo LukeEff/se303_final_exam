@@ -34,6 +34,5 @@ end
 
 def repeat
   data = ["This", "is", "the", "data", "to", "use"]
-  repeat_with_pipeline(data)
   data.map { |d| d }.join
 end
