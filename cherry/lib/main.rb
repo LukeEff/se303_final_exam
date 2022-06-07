@@ -39,4 +39,5 @@ def repeat
     result += data[i]
   end
   result
+  repeat_with_pipeline(data)
 end
